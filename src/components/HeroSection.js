@@ -4,14 +4,16 @@ import eclipseImage from "../assets/images/eclipse.png";
 
 const HeroSection = () => {
   return (
-    <div className="bg-gray-50 py-16">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center">
+    <div className="relative bg-[#fef9f5] py-16 overflow-hidden">
+      {/* Curved Background Shape */}
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/4 w-[200%] h-[400px] bg-[#fef9f5] rounded-t-[50%] z-0"></div>
+
+      <div className="container mx-auto flex flex-col lg:flex-row items-center relative z-10">
         {/* Text Section */}
         <div className="lg:w-1/2 px-6 lg:px-12 text-center lg:text-left">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
             Upskill from Anywhere with{" "}
-            <span className="text-orange-500">Industry-Recognized</span>{" "}
-            Learning
+            <span className="text-[#F97F4E]">Industry-Recognized</span> Learning
           </h1>
           <p className="mt-6 text-lg text-gray-600">
             Flexible, accredited courses to help you learn and advance from
@@ -34,12 +36,12 @@ const HeroSection = () => {
           <img
             src={heroImage}
             alt="Hero"
-            className="relative z-10 max-w-full h-auto"
+            className="relative z-20 max-w-full h-auto"
           />
           <img
             src={eclipseImage}
             alt="Eclipse"
-            className="absolute top-1/2 transform -translate-y-1/2 right-0 z-0 w-64 h-64"
+            className="absolute top-0 lg:top-[60%] lg:right-[-5%] transform lg:-translate-y-1/2 lg:w-[300px] lg:h-[300px] "
           />
         </div>
       </div>

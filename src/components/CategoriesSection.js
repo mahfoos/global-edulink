@@ -1,5 +1,6 @@
 import React from "react";
 import categories from "../data/categoriesData";
+
 const CategoriesSection = () => {
   return (
     <div className="bg-white py-16">
@@ -41,7 +42,7 @@ const CategoriesSection = () => {
             <div
               className="h-2 bg-black rounded-full"
               style={{ width: "20%" }}
-            ></div>{" "}
+            ></div>
           </div>
           <button className="text-black text-2xl font-bold px-4 py-2 rounded hover:bg-gray-200">
             &rarr;

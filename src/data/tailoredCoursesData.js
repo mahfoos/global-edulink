@@ -1,7 +1,3 @@
-import Rqf from "../assets/images/Rqf.png";
-import Itil from "../assets/images/itil.png";
-import Foundation from "../assets/images/foundation.png";
-
 const tailoredCourses = [
   {
     id: 1,
@@ -9,7 +5,7 @@ const tailoredCourses = [
     modules: "Live Online",
     certificate: "UK and International",
     price: "£369.00",
-    image: Rqf,
+    image: require("../assets/images/Rqf.png"),
   },
   {
     id: 2,
@@ -17,7 +13,7 @@ const tailoredCourses = [
     modules: "Live Online",
     certificate: "Foundation",
     price: "£769.00",
-    image: Itil,
+    image: require("../assets/images/itil.png"),
   },
   {
     id: 3,
@@ -26,7 +22,7 @@ const tailoredCourses = [
     certificate: "Foundation",
     price: "£1049.00",
     oldPrice: "1234.12",
-    image: Foundation,
+    image: require("../assets/images/foundation.png"),
   },
 ];
 

@@ -1,10 +1,3 @@
-import course1 from "../assets/images/course-1.png";
-import course2 from "../assets/images/course-2.png";
-import course3 from "../assets/images/course-3.png";
-import course4 from "../assets/images/course-4.png";
-import course5 from "../assets/images/course-5.png";
-import course6 from "../assets/images/course-6.png";
-
 const courses = [
   {
     id: 1,
@@ -13,7 +6,7 @@ const courses = [
     certificate: "Professional Certificate",
     price: "£199.99 / month",
     fullPrice: "£1099 in full",
-    image: course1,
+    image: require("../assets/images/course-1.png"),
   },
   {
     id: 2,
@@ -22,7 +15,7 @@ const courses = [
     certificate: "Professional Certificate",
     price: "£99.99 / month",
     fullPrice: "£769 in full",
-    image: course2,
+    image: require("../assets/images/course-2.png"),
   },
   {
     id: 3,
@@ -31,7 +24,7 @@ const courses = [
     certificate: "Professional Certificate",
     price: "£199.99 / month",
     fullPrice: "£1049 in full",
-    image: course3,
+    image: require("../assets/images/course-3.png"),
   },
   {
     id: 4,
@@ -40,7 +33,7 @@ const courses = [
     certificate: "Professional Certificate",
     price: "£99.99 / month",
     fullPrice: "£869 in full",
-    image: course4,
+    image: require("../assets/images/course-4.png"),
   },
   {
     id: 5,
@@ -49,7 +42,7 @@ const courses = [
     certificate: "Professional Certificate",
     price: "£79.99 / month",
     fullPrice: "£869 in full",
-    image: course5,
+    image: require("../assets/images/course-5.png"),
   },
   {
     id: 6,
@@ -58,7 +51,7 @@ const courses = [
     certificate: "Professional Certificate",
     price: "£99.99 / month",
     fullPrice: "£959 in full",
-    image: course6,
+    image: require("../assets/images/course-6.png"),
   },
 ];
 

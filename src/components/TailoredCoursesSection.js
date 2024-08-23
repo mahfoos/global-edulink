@@ -3,7 +3,7 @@ import tailoredCourses from "../data/tailoredCoursesData";
 
 const TailoredCoursesSection = () => {
   return (
-    <div className="bg-gray-50 py-16">
+    <div className="bg-[#fef9f5] py-16 relative overflow-hidden">
       <div className="container mx-auto">
         <h2 className="text-center text-2xl lg:text-3xl font-bold text-gray-800 mb-8">
           Our experts design tailored courses to solve workforce challenges and

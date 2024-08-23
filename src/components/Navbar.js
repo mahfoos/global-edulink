@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Top Notification Bar */}
-      <div className="bg-yellow-200 py-2 flex justify-between items-center px-4">
+      <div className="bg-yellow-200 py-2 flex justify-center items-center px-4 space-x-20">
         <div className="text-sm text-gray-800 flex items-center">
           <span className="text-red-600 font-semibold mr-2">
             {topNotification.message.split("|")[0]}
@@ -20,8 +20,8 @@ const Navbar = () => {
           <span className="mr-2">|</span>
           <span>{topNotification.message.split("|")[1]}</span>
         </div>
-        <div className="flex items-center space-x-4">
-          <button className="bg-black text-white text-sm px-4 py-1 rounded-full hover:bg-gray-800 transition duration-300">
+        <div className="flex space-x-20">
+          <button className="bg-black text-white text-sm px-4 py-1 rounded hover:bg-gray-800 transition duration-300">
             {topNotification.offer}
           </button>
           <button className="text-black font-bold text-lg">
