@@ -5,7 +5,6 @@ export const topNotification = {
 };
 
 export const mainNavLinks = [
-  { name: "Explore Courses ▾", url: "#" },
   { name: "Corporate Training", url: "#" },
   { name: "Become an Instructor", url: "#" },
 ];

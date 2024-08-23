@@ -35,7 +35,18 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
           <div className="flex items-center space-x-8">
             <img src={logo.src} alt={logo.alt} className="h-8" />
-            <nav className="hidden lg:flex space-x-6 text-gray-800">
+            <nav className="hidden lg:flex space-x-6 text-gray-800 mx-auto">
+              <a
+                href="#"
+                className="hover:text-gray-600 transition duration-300"
+              >
+                Explore Courses
+              </a>
+            </nav>
+          </div>
+
+          <div className="hidden lg:flex items-center space-x-4 ml-auto">
+            <nav className="hidden lg:flex space-x-6 text-gray-800 mx-auto">
               {mainNavLinks.map((link) => (
                 <a
                   key={link.name}
@@ -46,15 +57,13 @@ const Navbar = () => {
                 </a>
               ))}
             </nav>
-          </div>
-          <div className="hidden lg:flex items-center space-x-4">
             <a
               href={authButtons.login.url}
               className="text-gray-800 hover:text-gray-600 transition duration-300"
             >
               {authButtons.login.name} ➔
             </a>
-            <button className="border border-gray-800 text-gray-800 px-4 py-2 rounded-full hover:bg-gray-100 transition duration-300">
+            <button className="border border-gray-800 text-gray-800 px-4 py-2 rounded hover:bg-gray-100 transition duration-300">
               {authButtons.register}
             </button>
           </div>
