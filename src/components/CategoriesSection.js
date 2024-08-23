@@ -1,6 +1,5 @@
 import React from "react";
-import categories from "../data/categoriesData"; // Adjust the import path as needed
-
+import categories from "../data/categoriesData";
 const CategoriesSection = () => {
   return (
     <div className="bg-white py-16">
@@ -35,7 +34,7 @@ const CategoriesSection = () => {
 
         {/* Slider Controls */}
         <div className="flex justify-center items-center space-x-4">
-          <button className="text-black text-2xl font-bold px-4 py-2 rounded-full hover:bg-gray-200">
+          <button className="text-black text-2xl font-bold px-4 py-2 rounded hover:bg-gray-200">
             &larr;
           </button>
           <div className="h-2 w-40 bg-gray-300 rounded-full">
@@ -43,9 +42,8 @@ const CategoriesSection = () => {
               className="h-2 bg-black rounded-full"
               style={{ width: "20%" }}
             ></div>{" "}
-            {/* Adjust width for active slide */}
           </div>
-          <button className="text-black text-2xl font-bold px-4 py-2 rounded-full hover:bg-gray-200">
+          <button className="text-black text-2xl font-bold px-4 py-2 rounded hover:bg-gray-200">
             &rarr;
           </button>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
-// import heroImage from "/path-to-your-image/hero-image.png"; // Update this with the correct path to your image
+import heroImage from "../assets/images/hero-image.png";
+import eclipseImage from "../assets/images/eclipse.png";
 
 const HeroSection = () => {
   return (
@@ -31,22 +32,15 @@ const HeroSection = () => {
         {/* Image Section */}
         <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center relative">
           <img
-            // src={heroImage}
+            src={heroImage}
             alt="Hero"
             className="relative z-10 max-w-full h-auto"
           />
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex flex-col space-y-4 z-20">
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <p className="text-sm font-semibold">Expert Instructors</p>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <p className="text-sm font-semibold">Accredited Programs</p>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <p className="text-sm font-semibold">Interactive Learning</p>
-            </div>
-          </div>
-          <div className="absolute bg-orange-500 w-64 h-64 rounded-full opacity-50 -right-12 -bottom-12 z-0"></div>
+          <img
+            src={eclipseImage}
+            alt="Eclipse"
+            className="absolute top-1/2 transform -translate-y-1/2 right-0 z-0 w-64 h-64"
+          />
         </div>
       </div>
     </div>

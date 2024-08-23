@@ -11,11 +11,11 @@ export const mainNavLinks = [
 ];
 
 export const authButtons = {
-  login: { name: "Login →", url: "#" },
+  login: { name: "Login", url: "#" },
   register: "Register",
 };
 
 export const logo = {
-  src: "/path-to-your-logo/logo.svg",
+  src: require("../assets/images/logo.png"),
   alt: "Global Edulink Logo",
 };

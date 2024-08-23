@@ -1,6 +1,6 @@
 import React from "react";
-import testimonials from "../data/testimonialsData"; // Adjust the import path as needed
-import starImage from "../assets/images/star.png"; // Import the star image
+import testimonials from "../data/testimonialsData";
+import starImage from "../assets/images/star.png";
 
 const TestimonialsSection = () => {
   return (
@@ -51,7 +51,6 @@ const TestimonialsSection = () => {
               className="h-2 bg-white rounded-full"
               style={{ width: "20%" }}
             ></div>{" "}
-            {/* Adjust width for active slide */}
           </div>
           <button className="text-white text-2xl font-bold px-4 py-2 rounded-full hover:bg-gray-700">
             &rarr;

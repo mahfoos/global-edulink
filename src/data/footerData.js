@@ -29,9 +29,41 @@ export const supportLinks = [
 ];
 
 export const socialMediaIcons = [
-  { name: "Facebook", icon: "/path-to-icons/facebook.png", url: "#" },
-  { name: "Instagram", icon: "/path-to-icons/instagram.png", url: "#" },
-  { name: "Twitter", icon: "/path-to-icons/twitter.png", url: "#" },
-  { name: "LinkedIn", icon: "/path-to-icons/linkedin.png", url: "#" },
-  { name: "YouTube", icon: "/path-to-icons/youtube.png", url: "#" },
+  {
+    name: "Facebook",
+    icon: require("../assets/images/facebook.png"),
+    url: "#",
+  },
+  {
+    name: "Instagram",
+    icon: require("../assets/images/insta.png"),
+    url: "#",
+  },
+  { name: "Twitter", icon: require("../assets/images/twitter.png"), url: "#" },
+  {
+    name: "LinkedIn",
+    icon: require("../assets/images/linkedin.png"),
+    url: "#",
+  },
+  { name: "YouTube", icon: require("../assets/images/youtube.png"), url: "#" },
+];
+
+export const paymentIcons = [
+  { name: "PayPal", icon: require("../assets/images/paypal.png") },
+  { name: "Visa", icon: require("../assets/images/visa.png") },
+  { name: "MasterCard", icon: require("../assets/images/master.png") },
+  { name: "Apple Pay", icon: require("../assets/images/apple-pay.png") },
+  { name: "Google Pay", icon: require("../assets/images/google-pay.png") },
+];
+
+export const logo = {
+  src: require("../assets/images/logo.png"),
+  alt: "Global Edulink Logo",
+};
+
+export const awards = [
+  { name: "UCAS", icon: require("../assets/images/ucas.png") },
+  { name: "Award1", icon: require("../assets/images/award1.png") },
+  { name: "Award2", icon: require("../assets/images/award2.png") },
+  { name: "Award3", icon: require("../assets/images/award3.png") },
 ];

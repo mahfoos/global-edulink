@@ -1,5 +1,5 @@
 import React from "react";
-import { trustedByLogos } from "../data/trustedByData"; // Adjust the import path as needed
+import { trustedByLogos } from "../data/trustedByData";
 
 const TrustedBySection = () => {
   return (

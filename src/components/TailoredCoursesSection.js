@@ -1,5 +1,5 @@
 import React from "react";
-import tailoredCourses from "../data/tailoredCoursesData"; // Adjust the import path as needed
+import tailoredCourses from "../data/tailoredCoursesData";
 
 const TailoredCoursesSection = () => {
   return (
@@ -53,10 +53,10 @@ const TailoredCoursesSection = () => {
 
         {/* Show More */}
         <div className="mt-12 text-center">
-          <button className="px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-100">
+          <button className="px-6 py-2 border border-gray-700 text-gray-700 rounded hover:bg-gray-100">
             Show more →
           </button>
-          <button className="ml-4 px-6 py-2 border border-gray-700 text-gray-700 rounded-full hover:bg-gray-100">
+          <button className="ml-4 px-6 py-2 border border-gray-700 text-gray-700 rounded hover:bg-gray-100">
             View all
           </button>
         </div>

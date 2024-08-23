@@ -1,5 +1,5 @@
 import React from "react";
-import features from "../data/featuresData"; // Adjust the import path as needed
+import features from "../data/featuresData";
 
 const FeaturesSection = () => {
   return (

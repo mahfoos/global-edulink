@@ -13,7 +13,7 @@ const courses = [
     certificate: "Professional Certificate",
     price: "£199.99 / month",
     fullPrice: "£1099 in full",
-    image: course1, // Replace with actual image paths
+    image: course1,
   },
   {
     id: 2,
